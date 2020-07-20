@@ -1,0 +1,22 @@
+.header_top{
+  height: 70px;
+  line-height: 70px;
+  background-color: red;
+}
+
+
+.list_inline{
+  list-style: none;
+}
+.list_inline li{
+  display: inline-block;
+}
+
+
+.jumbotron{
+  background-color: blue;
+}
+
+.form{
+  background-color: green;
+}
