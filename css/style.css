@@ -24,6 +24,9 @@
 .bg_grey{
   background-color: #F3F5F9;
 }
+.bg_blue{
+  background-color: blue;
+}
 .lista_loghi{
   list-style: none;
 }
@@ -58,5 +61,12 @@
   height: 10px;
   border-radius: 50%;
   border-color: red;
+  background-color: red;
+}
+
+
+.rock_box{
+  width: 200px;
+  height: 200px;
   background-color: red;
 }
