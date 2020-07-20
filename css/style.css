@@ -21,7 +21,7 @@
   background-color: green;
 }
 
-.section_loghi{
+.bg_grey{
   background-color: #F3F5F9;
 }
 .lista_loghi{
@@ -38,4 +38,25 @@
 .deploy_list{
   list-style: none;
   border-left: 1px solid grey;
+}
+
+
+.box_img{
+  width: 500px;
+  height: 300px;
+  background-color: green;
+}
+.mini_box{
+  display:inline-block;
+}
+.pallini{
+  list-style: none;
+}
+.pallini li{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border-color: red;
+  background-color: red;
 }
