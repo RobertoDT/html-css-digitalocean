@@ -7,17 +7,36 @@ h1{
   color: white;
   font-size: 60px;
 }
+h2{
+  font-size: 35px;
+}
+h5{
+  color: darkgrey;
+  font-size: 18px;
+}
 .lightgrey{
   color: lightgrey;
 }
+.darkgrey{
+  color: darkgrey;
+}
 .blue{
   color: #006AFF;
+}
+.dark{
+  color: #031B4E;
 }
 .bg_blue2{
   background-color: #006AFF;
 }
 .fs_20{
   font-size: 20px;
+}
+.p_top{
+  padding-top: 50px;
+}
+.p_bottom{
+  padding-bottom: 50px;
 }
 .header_top{
   width: 100%;
@@ -82,20 +101,36 @@ span{
 .m_top10{
   margin-top: 10px;
 }
+.m_bottom50{
+  margin-bottom: 50px;
+}
+
+
 .lista_loghi{
   list-style: none;
 }
 .lista_loghi li{
   display: inline-block;
-  width: 100px;
-  height: 100px;
-  background-color: yellow;
+  margin-right: 10px;
+}
+.lista_loghi li:last-child{
+  margin-right: 0;
 }
 
+
+.wrapper_small{
+  max-width: 900px;
+  margin: auto;
+}
 
 .deploy_list{
   list-style: none;
   border-left: 1px solid grey;
+  padding-inline-start: 10px;
+}
+.deploy_list li{
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
 
