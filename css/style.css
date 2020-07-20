@@ -13,10 +13,29 @@
 }
 
 
-.jumbotron{
+.jumbo{
   background-color: blue;
-}
 
+}
 .form{
   background-color: green;
+}
+
+.section_loghi{
+  background-color: #F3F5F9;
+}
+.lista_loghi{
+  list-style: none;
+}
+.lista_loghi li{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+
+
+.deploy_list{
+  list-style: none;
+  border-left: 1px solid grey;
 }
