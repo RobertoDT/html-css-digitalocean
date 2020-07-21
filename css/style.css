@@ -163,6 +163,9 @@ span{
 .lista_loghi li:last-child{
   margin-right: 0;
 }
+.lista_loghi li img{
+  width: 170px;
+}
 
 
 .wrapper_small{
@@ -273,4 +276,39 @@ span{
 .footer_list{
   list-style: none;
   padding-inline-start: 0;
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+  .lista_loghi li img{
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .lista_loghi li img{
+    width: 300px;
+  }
+  .designed{
+    max-width: 500px;
+    margin-top: 100px;
+  }
+  .sinistra,
+  .destra{
+    display: none;
+  }
+  .pallini{
+    margin-top: 100px;
+  }
+  .iconcine{
+    width: 70px;
+    margin-top: 20px;
+  }
+  .second{
+    margin-top: 30px;
+  }
+  .wrapper_small2{
+    max-width: 400px;
+  }
 }
