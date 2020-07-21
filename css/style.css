@@ -23,14 +23,29 @@ h5{
 .blue{
   color: #006AFF;
 }
+.white{
+  color: white;
+}
+.azzurro{
+  color: #00ccff;
+}
 .dark{
   color: #031B4E;
 }
 .bg_blue2{
   background-color: #006AFF;
 }
+.gradient{
+  background: linear-gradient(to bottom, #0066ff, #031B4E)
+}
 .fs_20{
   font-size: 20px;
+}
+.fs_18{
+  font-size: 18px;
+}
+.p_10{
+  padding: 10px 0;
 }
 .p_top{
   padding-top: 50px;
@@ -38,6 +53,7 @@ h5{
 .p_bottom{
   padding-bottom: 50px;
 }
+
 .header_top{
   width: 100%;
   height: 70px;
@@ -60,7 +76,11 @@ h5{
   vertical-align: sub;
   margin-right: 15px;
 }
+.fa-google{
+  float: left;
+  line-height: calc(45px - 20px);
 
+}
 .list_inline a{
   text-decoration: none;
   border: 1px solid #006AFF;
@@ -101,6 +121,15 @@ span{
 .m_top10{
   margin-top: 10px;
 }
+.m_bottom10{
+  margin-bottom: 10px;
+}
+.m_bottom20{
+  margin-bottom: 20px;
+}
+.m_top50{
+  margin-top: 50px;
+}
 .m_bottom50{
   margin-bottom: 50px;
 }
@@ -135,12 +164,22 @@ span{
 
 
 .box_img{
-  width: 500px;
-  height: 300px;
-  background-color: green;
+  margin: auto;
 }
 .mini_box{
   display:inline-block;
+}
+.designed{
+  max-width: 700px;
+}
+.sinistra{
+  font-size: 50px;
+  color: darkgrey;
+  margin-right: 20px;
+}
+.destra{
+  font-size: 50px;
+  margin-left: 20px;
 }
 .pallini{
   list-style: none;
@@ -150,10 +189,24 @@ span{
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  border-color: red;
-  background-color: red;
+  border: 1px solid #006AFF;
+  border-color: #006AFF;
+  background-color: white;
+}
+#primo{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #006AFF;
+  border-color: #006AFF;
+  background-color: #006AFF;
 }
 
+.barretta{
+  border-bottom: 1px solid white;
+  padding: 10px 0;
+}
 
 .rock_box{
   width: 200px;
