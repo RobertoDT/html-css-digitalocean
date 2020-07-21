@@ -44,6 +44,9 @@ h5{
 .fs_18{
   font-size: 18px;
 }
+.fw_b{
+  font-weight: bold;
+}
 .p_10{
   padding: 10px 0;
 }
@@ -118,11 +121,17 @@ span{
 .bg_green{
   background-color: green;
 }
+.bg_white{
+  background-color: white;
+}
 .m_top10{
   margin-top: 10px;
 }
 .m_bottom10{
   margin-bottom: 10px;
+}
+.m_top20{
+  margin-top: 20px;
 }
 .m_bottom20{
   margin-bottom: 20px;
@@ -150,6 +159,11 @@ span{
 .wrapper_small{
   max-width: 900px;
   margin: auto;
+}
+.wrapper_small2{
+  max-width: 700px;
+  margin: auto;
+  display: inline-block;
 }
 
 .deploy_list{
@@ -181,8 +195,13 @@ span{
   font-size: 50px;
   margin-left: 20px;
 }
+
+.vam{
+  vertical-align: middle;
+}
 .pallini{
   list-style: none;
+  padding-inline-start: 0;
 }
 .pallini li{
   display: inline-block;
@@ -202,6 +221,15 @@ span{
   border-color: #006AFF;
   background-color: #006AFF;
 }
+#secondo{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #006AFF;
+  border-color: #006AFF;
+  background-color: #006AFF;
+}
 
 .barretta{
   border-bottom: 1px solid white;
@@ -209,9 +237,7 @@ span{
 }
 
 .rock_box{
-  width: 200px;
-  height: 200px;
-  background-color: red;
+  background-color: white;
 }
 
 
