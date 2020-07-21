@@ -53,6 +53,7 @@ h5{
 .fs_18{
   font-size: 18px;
 }
+
 .fw_b{
   font-weight: bold;
 }
@@ -168,6 +169,7 @@ span{
 }
 
 
+
 .wrapper_small{
   max-width: 900px;
   margin: auto;
@@ -281,8 +283,23 @@ span{
 
 
 @media screen and (min-width: 768px) and (max-width: 991px){
+  h1{
+    font-size: 50px;
+  }
+  .form > h2{
+    font-size: 25px;
+  }
   .lista_loghi li img{
     width: 100px;
+  }
+  .designed{
+    max-width: 500px;
+  }
+  .wrapper_small2{
+    max-width: 400px;
+  }
+  .second{
+    margin-top: 30px;
   }
 }
 
