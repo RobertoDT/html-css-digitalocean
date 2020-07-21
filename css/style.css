@@ -280,7 +280,57 @@ span{
   padding-inline-start: 0;
 }
 
-
+footer{
+  position: relative;
+}
+.squalo_box{
+  width:300px;
+  height: 300px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+.squalo{
+  width: 80px;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  border-radius: 5px;
+}
+.box_numero{
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  border: 2px solid white;
+  border-radius: 50%;
+  position: relative;
+  position: absolute;
+  right: 37px;
+  bottom: 115px;
+}
+.numero{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.testo{
+  background-color: white;
+  width: 300px;
+  height: 60px;
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 50px;
+  right: 160px;
+}
+.triangolo{
+  position: absolute;
+  bottom: 60px;
+  right: 150px;
+  font-size: 30px;
+}
 
 @media screen and (min-width: 768px) and (max-width: 991px){
   h1{
@@ -301,11 +351,33 @@ span{
   .second{
     margin-top: 30px;
   }
+  .squalo{
+    position: absolute;
+    bottom: 150px;
+    left: -160px;;
+  }
+  .box_numero{
+    position: relative;
+    position: absolute;
+    left: -95px;
+    bottom: 210px;
+  }
+  .squalo_box{
+    width:300px;
+    height: 300px;
+    position: fixed;
+    bottom: 0;
+    left: 200px;
+    z-index: 1;
+  }
 }
 
 @media screen and (max-width: 767px){
+  h1{
+    font-size: 40px;
+  }
   .lista_loghi li img{
-    width: 300px;
+    width: 250px;
   }
   .designed{
     max-width: 500px;
@@ -327,5 +399,24 @@ span{
   }
   .wrapper_small2{
     max-width: 400px;
+  }
+  .squalo{
+    position: absolute;
+    bottom: 150px;
+    left: -160px;;
+  }
+  .box_numero{
+    position: relative;
+    position: absolute;
+    left: -95px;
+    bottom: 210px;
+  }
+  .squalo_box{
+    width:300px;
+    height: 300px;
+    position: fixed;
+    bottom: 0;
+    left: 200px;
+    z-index: 1;
   }
 }
