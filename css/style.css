@@ -35,8 +35,17 @@ h5{
 .bg_blue2{
   background-color: #006AFF;
 }
+.bg_blue3{
+  background-color: #3333ff;
+}
+.bg_blue4{
+  background-color: #000099;
+}
 .gradient{
-  background: linear-gradient(to bottom, #0066ff, #031B4E)
+  background: linear-gradient(to bottom, #0066ff, #031B4E);
+}
+.gradient2{
+  background: linear-gradient(to top, #0066ff, #031B4E);
 }
 .fs_20{
   font-size: 20px;
@@ -240,15 +249,28 @@ span{
   background-color: white;
 }
 
+.bottone{
+  color: #006AFF;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
 
 .social_list{
   list-style: none;
+  padding-inline-start: 0;
 }
 .social_list li {
   display: inline-block;
+  font-size: 25px;
+  margin-right: 10px;
 }
 
 
 .footer_list{
   list-style: none;
+  padding-inline-start: 0;
 }
