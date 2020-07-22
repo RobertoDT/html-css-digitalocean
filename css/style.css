@@ -156,18 +156,16 @@ span{
 
 .lista_loghi{
   list-style: none;
+  padding-inline-start: 0;
 }
 .lista_loghi li{
   display: inline-block;
-  margin-right: 10px;
-}
-.lista_loghi li:last-child{
-  margin-right: 0;
+  padding-right: 10px;
+  width: calc((100% / 6) - 12px);
 }
 .lista_loghi li img{
-  width: 170px;
+  width: 100%;
 }
-
 
 
 .wrapper_small{
@@ -254,7 +252,8 @@ span{
   background-color: white;
 }
 
-.bottone{
+.get a{
+  text-decoration: none;
   color: #006AFF;
   border: 1px solid white;
   border-radius: 5px;
@@ -340,7 +339,7 @@ footer{
     font-size: 25px;
   }
   .lista_loghi li img{
-    width: 100px;
+    width: 100%;
   }
   .designed{
     max-width: 500px;
@@ -376,8 +375,8 @@ footer{
   h1{
     font-size: 40px;
   }
-  .lista_loghi li img{
-    width: 250px;
+  .lista_loghi li{
+    width: calc((100% / 2) - 12px);
   }
   .designed{
     max-width: 500px;
